@@ -1,6 +1,5 @@
 ﻿using Encinecarlos.FinancialManager.Application.Categories.dto;
-using Encinecarlos.PaymentManager.Domain.Entities;
-using System.Security.Cryptography.X509Certificates;
+using Encinecarlos.FinancialManager.Domain.Entities;
 
 namespace Encinecarlos.FinancialManager.Application.Adapters
 {

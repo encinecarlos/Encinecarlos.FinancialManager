@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encinecarlos.FinancialManag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encinecarlos.FinancialManager.Infrastructure", "src\Encinecarlos.FinancialManager.Infrastructure\Encinecarlos.FinancialManager.Infrastructure.csproj", "{48ADFB05-4813-445B-BCC3-802DA2365CAB}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A4AC6E95-DF21-4EC2-9F2E-3667DCCE4B63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{48ADFB05-4813-445B-BCC3-802DA2365CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48ADFB05-4813-445B-BCC3-802DA2365CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48ADFB05-4813-445B-BCC3-802DA2365CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4AC6E95-DF21-4EC2-9F2E-3667DCCE4B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AC6E95-DF21-4EC2-9F2E-3667DCCE4B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AC6E95-DF21-4EC2-9F2E-3667DCCE4B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AC6E95-DF21-4EC2-9F2E-3667DCCE4B63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

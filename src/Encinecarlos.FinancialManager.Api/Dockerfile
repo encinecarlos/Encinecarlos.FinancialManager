@@ -9,7 +9,7 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["src/Encinecarlos.FinancialManager.Api/Encinecarlos.FinancialManager.Api.csproj", "src/Encinecarlos.FinancialManager.Api/"]
+COPY . .
 RUN dotnet restore "./src/Encinecarlos.FinancialManager.Api/./Encinecarlos.FinancialManager.Api.csproj"
 COPY . .
 WORKDIR "/src/src/Encinecarlos.FinancialManager.Api"

@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  encinecarlos.financialmanager.api:
+    image: ${DOCKER_REGISTRY-}encinecarlosfinancialmanagerapi
+    hostname: financial-api
+    container_name: financial-api
+    networks:
+        - financial-net 
+    build:
+      context: .
+      dockerfile: src/Encinecarlos.FinancialManager.Api/Dockerfile
+    ports:
+        - 9090:80
+        - 9091:443
+
+networks:
+  financial-net:
+    driver: bridge
